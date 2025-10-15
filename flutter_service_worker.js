@@ -3,10 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "0b060c9f2384495b8c42601e7662528c",
-"assets/AssetManifest.bin.json": "78dc45a1740d21c893ffda2de3cba898",
-"assets/AssetManifest.json": "9a02e9269e7fe6ecca6797fcf4360453",
+const RESOURCES = {"assets/AssetManifest.bin": "8ec1886eb343cbdcaa56ce3e12766a73",
+"assets/AssetManifest.bin.json": "237d1d55c8c156a25468f4f7f9a0a6b3",
+"assets/AssetManifest.json": "821780cfa896a9cfa9e8bbe116496ab9",
 "assets/assets/appstore.png": "3d8516ca942593a537913336d68567fe",
+"assets/assets/fathimathSahlaPhoto.jpg": "eb25746c44f50f37d56856e56911be17",
 "assets/assets/My%2520photo.jpg": "42a2c3155530fe66283d56d9a0a62263",
 "assets/assets/playstore.png": "18fab95d924ef304111a8efd2620c0a6",
 "assets/assets/sanqour_app_icon.jpg": "369a4d9999d21a3a025a8439098e3a45",
@@ -30,14 +31,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "0b060c9f2384495b8c42601e7662528c
 "canvaskit/skwasm.wasm": "39dd80367a4e71582d234948adc521c0",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
-"flutter_bootstrap.js": "d25fc40a4359a668e03dca3bca238833",
+"flutter_bootstrap.js": "04d981c4e25b8392b8f9c9b6f488b417",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "b3a089ab9fe29e08ea852386308c661d",
 "/": "b3a089ab9fe29e08ea852386308c661d",
-"main.dart.js": "46cd18dc1175e328b3b0fd89694369d8",
+"main.dart.js": "f8a7a4689b687bd0fe490ac8bad57a3a",
 "manifest.json": "e74af8957b5899dc6da961caee768ec9",
 "version.json": "009c9e65172e010890f7f65fde438006"};
 // The application shell files that are downloaded before a service worker can
