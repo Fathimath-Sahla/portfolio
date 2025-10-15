@@ -20,7 +20,7 @@ class _PortfolioState extends State<Portfolio> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-        backgroundColor: Colors.grey.shade100,
+        backgroundColor: Colors.black26,
         body:  Center(
           child: Container(
             decoration: BoxDecoration(
@@ -36,7 +36,7 @@ class _PortfolioState extends State<Portfolio> {
                 children: [
               
                   Container(
-                    color: Colors.blueGrey.shade100,
+                    color: Colors.lightBlue.shade900,
                     constraints: BoxConstraints(
                         maxWidth: 230,
                         minWidth: 200,
@@ -53,7 +53,8 @@ class _PortfolioState extends State<Portfolio> {
                             child: Padding(
                               padding: const EdgeInsets.all(1),
                               child: ClipOval(
-                                  child: Image.asset("assets/My photo.jpg",height: 100,width: 100,fit: BoxFit.cover,)
+                                  // child: Image.asset("assets/My photo.jpg",height: 100,width: 100,fit: BoxFit.cover,)
+                                  child: Image.asset("assets/fathimathSahlaPhoto.jpg",height: 100,width: 100,fit: BoxFit.cover,)
                               ),
                             ),
                           ),
@@ -75,19 +76,19 @@ class _PortfolioState extends State<Portfolio> {
                                     padding: const EdgeInsets.only(top: 10.0),
                                     child: Text('Name',style: AppTextStyles.fadeText,),
                                   ),
-                                  Text('Fathimath Sahla',style: AppTextStyles.normalText,),
+                                  Text('Fathimath Sahla',style: AppTextStyles.normalText2,),
               
                                   Padding(
                                     padding: const EdgeInsets.only(top: 10.0),
                                     child: Text('Address',style: AppTextStyles.fadeText,),
                                   ),
-                                  Text('Abu Dhabi, UAE',style: AppTextStyles.normalText,),
+                                  Text('Abu Dhabi, UAE',style: AppTextStyles.normalText2,),
               
                                   Padding(
                                     padding: const EdgeInsets.only(top: 10.0),
                                     child: Text('Phone',style: AppTextStyles.fadeText,),
                                   ),
-                                  Text('+971 547797560',style: AppTextStyles.normalText,),
+                                  Text('+971 547797560',style: AppTextStyles.normalText2,),
               
                                   Padding(
                                     padding: const EdgeInsets.only(top: 10.0),
@@ -247,7 +248,10 @@ class _PortfolioState extends State<Portfolio> {
               
                   Padding(
                     padding: const EdgeInsets.only(top: 50.0,left: 10,bottom: 50),
-                    child: ConstrainedBox(
+                    child: Container(
+                      decoration: BoxDecoration(
+                          color: Colors.white
+                      ),
                       constraints: BoxConstraints(
                           maxWidth: 500,
                           maxHeight: 2500
@@ -265,7 +269,7 @@ class _PortfolioState extends State<Portfolio> {
                             children: [
                               Padding(
                                 padding: const EdgeInsets.only(top: 25.0),
-                                child: Text('WORK EXPERIENCE',style: AppTextStyles.heading2),
+                                child: Text('WORK EXPERIENCE',style: AppTextStyles.heading5),
                               ),
                               _getDivider(),
               
@@ -330,7 +334,7 @@ class _PortfolioState extends State<Portfolio> {
               
                               Padding(
                                 padding: const EdgeInsets.only(top: 15.0),
-                                child: Text('COURSES & CERTIFICATIONS',style: AppTextStyles.heading2),
+                                child: Text('COURSES & CERTIFICATIONS',style: AppTextStyles.heading5),
                               ),
               
                               _getDivider(),
@@ -372,7 +376,7 @@ class _PortfolioState extends State<Portfolio> {
               
                               Padding(
                                 padding: const EdgeInsets.only(top: 15.0,bottom: 5),
-                                child: Text('EDUCATION',style: AppTextStyles.heading2),
+                                child: Text('EDUCATION',style: AppTextStyles.heading5),
                               ),
               
                               _getDivider(),
@@ -407,7 +411,7 @@ class _PortfolioState extends State<Portfolio> {
               
                               Padding(
                                 padding: const EdgeInsets.only(top: 15.0),
-                                child: Text('SKILLS',style: AppTextStyles.heading2),
+                                child: Text('SKILLS',style: AppTextStyles.heading5),
                               ),
                               _getDivider(),
               
@@ -611,7 +615,7 @@ class _PortfolioState extends State<Portfolio> {
 
   Widget _getDivider(){
 
-    return  Divider(height: 5,thickness: 3,);
+    return  Divider(height: 5,thickness: 3,color: Colors.black,);
   }
 
 
